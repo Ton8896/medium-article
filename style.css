@@ -1,0 +1,73 @@
+body{
+    font-family:'Lato', sans-serif;
+    color: grey;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'Lora', serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+
+.banner{
+    background-image:url("https://source.unsplash.com/random/1000x500");
+    background-size: cover;
+    color: white;
+    padding: 120px 0px;
+}
+
+.container{
+    margin: 50px auto;
+    width: 700px;
+}
+
+.greenbotton{
+    font-size: 28px;
+    text-decoration: none;
+    background-color: rgb(159, 230, 230);
+    font-weight: lighter;
+    font-style: italic;
+    color: #eeeeee;
+}
+
+.greenbotton:hover{
+    background-color: blue;
+}
+
+.paragrafi{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 8px 0;
+    word-spacing: 5px;
+}
+
+.titoli {
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principale{
+    font-weight: bold;
+    font-size: 38px;
+}
+
+@media (max-width: 960px) {
+    .contenuto {
+      width: 700px;
+    }
+  }
+
+@media (max-width: 720px) {
+    .contenuto {
+      width: 100px;
+    }
+}
+
+@media (max-width: 540px) {
+    .contenuto {
+      width: 300px;
+    }
+  }
